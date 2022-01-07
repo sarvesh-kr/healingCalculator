@@ -59,23 +59,27 @@
 body {
     margin-top: 40px;
     margin-left: 40px;
-    background-image: url(../images/background/background.jpg);
+    background-image: url(../images/background/background1.gif);
     background-size: 100% 100%;
     background-attachment: fixed;
 }
 #divCalculator {
     margin-left: 36%; 
     margin-top: 8%; 
-    width: 281px;
-    height: 408px;
+    /* width: 280px;
+    height: 408px; */
+    height: 409px;
+    width: 290px;
     border-style:groove; 
     text-align: center; 
     border-color: rgb(141, 127, 127); 
     border-width: 10px; 
-    background-color: rgb(10, 33, 53);
+    /* background-color: rgb(197, 37, 37); */
+    background-size: 100% 100%;
 }
 #calculatorLabel {
-    color:rgba(128, 148, 156, 0.664); 
+    color:rgba(101, 110, 114, 0.664);
+    background-color: rgb(66, 66, 65);
     font-weight: bold; font-size: 20px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
