@@ -59,7 +59,8 @@
 body {
     margin-top: 40px;
     margin-left: 40px;
-    background-image: url(../images/background/background1.gif);
+/*     background-image: url(../images/background/background1.gif); */
+    background-image: url(https://drive.google.com/file/d/1V1D1Q3alqVkj7QDYnz4YBE4Td0QJQD3I/view?usp=sharing);
     background-size: 100% 100%;
     background-attachment: fixed;
 }
