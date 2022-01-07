@@ -71,4 +71,7 @@ let display = () => {
         }
     }
     document.getElementById("calcDisplay").value = result;
+    if(isNaN(result)) {
+        document.getElementById("calcDisplay").value = `Sorry`;
+    }
 }
