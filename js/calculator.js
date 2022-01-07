@@ -73,6 +73,8 @@ let display = () => {
             star=0;
         }
     }
+    equation[0]=result;
+    c=0;
     document.getElementById("calcDisplay").value = result;
     if(isNaN(result)) {
         document.getElementById("calcDisplay").value = `Sorry ("_-) `;
