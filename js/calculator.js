@@ -4,6 +4,10 @@ equation=[''];
 c=0;
 result=1;
 
+document.addEventListener("contextmenu", function(e){
+    e.preventDefault();
+}, false);
+
 let calculator = () => {
     inputValue = window.event.target.value;
     if (inputValue == '\+' || inputValue == '\-' || inputValue == '\*' ||inputValue == '\/') {
