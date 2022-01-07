@@ -2,7 +2,7 @@
 inputValue = {};
 equation=[''];
 c=0;
-result=1;
+result=0;
 
 document.addEventListener("contextmenu", function(e){
     e.preventDefault();
@@ -25,8 +25,7 @@ let calculator = () => {
             document.getElementById("calcDisplay").value='';
             equation = [''];
             c= 0 ;
-            result = 1;
-            resultAdd = 0;
+            result = 0;
         } else {
             var snd = new Audio("sound/buttonSound/clickSound2.wav");
             snd.play();
