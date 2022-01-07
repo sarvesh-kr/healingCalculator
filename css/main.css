@@ -29,7 +29,8 @@
     margin-left: 41%; 
     margin-top: 2%; 
     text-align: center; 
-    background-color: rgb(141, 127, 127); 
+    background-color: rgb(141, 127, 127);
+    color: rgb(236, 84, 84); 
 }
 #calcDisplay {
     height: 70px; 
@@ -47,19 +48,19 @@
     border-color: rgb(141, 127, 127);
     font-weight: bold;
     font-size: 20px;
-    color: rgb(141, 127, 127);
+    color: rgb(236, 84, 84);
     background-color: rgb(66, 66, 65);
 }
 .calcButton:hover {
     border-color: rgb(141, 127, 127);
-    color: rgb(10, 33, 53);
+    color: rgb(170, 18, 18);
     background-color: rgb(99, 99, 98);
     cursor: pointer;
 }
 body {
     margin-top: 40px;
     margin-left: 40px;
-/*     background-image: url(../images/background/background1.gif); */
+    /* background-image: url(../images/background/background1.gif); */
     background-image: url(http://drive.google.com/uc?export=view&id=1V1D1Q3alqVkj7QDYnz4YBE4Td0QJQD3I);
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -79,7 +80,7 @@ body {
     background-size: 100% 100%;
 }
 #calculatorLabel {
-    color:rgba(101, 110, 114, 0.664);
+    color:rgba(214, 38, 38, 0.664);
     background-color: rgb(66, 66, 65);
     font-weight: bold; font-size: 20px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
