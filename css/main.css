@@ -1,1 +1,89 @@
-/* ---------- */
+
+/* HCKME */
+
+/* .divFirst {
+    height: 100%;
+    width: 100%;
+} */
+#divHeader {
+    color: rgb(141, 127, 127); 
+    font-weight: bold; 
+    font-size: 20px;
+    height: 1px;
+    width: 1px;
+}
+#divFooter {
+    height: 50px;
+    width: 460px;
+    margin-left: 31%;
+    margin-top: 2%;
+    opacity: 80%; 
+    background-color: rgb(141, 127, 127);
+    color: rgb(194, 187, 187); 
+    background-color: rgb(66, 66, 65);
+}
+#copyright {
+    opacity: 80%;
+    height: 20px;
+    width: 150px;
+    margin-left: 41%; 
+    margin-top: 1%; 
+    text-align: center; 
+    background-color: rgb(141, 127, 127); 
+}
+#calcDisplay {
+    height: 70px; 
+    width: 273px; 
+    text-align: right; 
+    border-color: rgb(141, 127, 127); 
+    font-size: 23px; 
+    font-weight: bold; 
+    color: rgb(141, 127, 127); 
+    background-color: rgb(66, 66, 65);
+}
+.calcButton {
+    height: 67px;
+    width: 67px;
+    border-color: rgb(141, 127, 127);
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(141, 127, 127);
+    background-color: rgb(66, 66, 65);
+}
+.calcButton:hover {
+    border-color: rgb(141, 127, 127);
+    color: rgb(10, 33, 53);
+    background-color: rgb(99, 99, 98);
+    cursor: pointer;
+}
+body {
+    margin-top: 40px;
+    margin-left: 40px;
+    background-image: url(../images/background/background.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#divCalculator {
+    margin-left: 36%; 
+    margin-top: 5%; 
+    width: 281px;
+    height: 408px;
+    border-style:groove; 
+    text-align: center; 
+    border-color: rgb(141, 127, 127); 
+    border-width: 10px; 
+    background-color: rgb(10, 33, 53);
+}
+#calculatorLabel {
+    color:rgba(128, 148, 156, 0.664); 
+    font-weight: bold; font-size: 20px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#divCalculator, body {
+opacity: 90%;
+-webkit-user-select: none;
+-webkit-touch-callout: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
