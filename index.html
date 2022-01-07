@@ -1,0 +1,74 @@
+<!-- Copyright content -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCKME - Calculator&#9924;</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <script src="js/calculator.js"></script>
+    <style>
+        .calcButton {
+            height: 67px;
+            width: 67px;
+            border-color: rgb(141, 127, 127);
+            font-weight: bold;
+            font-size: 20px;
+            color: rgb(141, 127, 127);
+            background-color: rgb(66, 66, 65);
+        }
+        .calcButton:hover {
+            border-color: rgb(141, 127, 127);
+            color: rgb(10, 33, 53);
+            background-color: rgb(99, 99, 98);
+            cursor: pointer;
+        }
+        body {
+            margin: 5%;
+            background-image: url('images/background/background.jpg');
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+        #divCalculator, body {
+        opacity: 90%;
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+    </style>
+</head>
+<body>
+    <div class="divFirst">
+        <div><header style="color: rgb(141, 127, 127); font-weight: bold; font-size: 20px;">HCKME</header></div>
+        <div id="divBody">
+            <div id="divCalculator" style="position: absolute; margin-left: 35%; margin-top: 5%; border-style:groove; text-align: center; border-color: rgb(141, 127, 127); border-width: 10px; background-color: rgb(10, 33, 53); ">
+                <label for="calculator" style="color:rgba(128, 148, 156, 0.664); font-weight: bold; font-size: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Healing Calculator</label><br>
+                <input id="calcDisplay" type="text" placeholder="0" style="height: 70px; width: 273px; text-align: right; border-color: rgb(141, 127, 127); font-size: 23px; font-weight: bold; color: rgb(141, 127, 127); background-color: rgb(66, 66, 65);" disabled><br>
+                <button id="1" class="calcButton" value="1" onclick="document.getElementById('calcDisplay').value += document.getElementById('1').value; calculator();">1</button>
+                <button id="2" class="calcButton" value="2" onclick="document.getElementById('calcDisplay').value += document.getElementById('2').value; calculator();">2</button>
+                <button id="3" class="calcButton" value="3" onclick="document.getElementById('calcDisplay').value += document.getElementById('3').value; calculator();">3</button>
+                <button id="+" class="calcButton" value="+" onclick="document.getElementById('calcDisplay').value += document.getElementById('+').value; calculator();">+</button><br>
+                <button id="4" class="calcButton" value="4" onclick="document.getElementById('calcDisplay').value += document.getElementById('4').value; calculator();">4</button>
+                <button id="5" class="calcButton" value="5" onclick="document.getElementById('calcDisplay').value += document.getElementById('5').value; calculator();">5</button>
+                <button id="6" class="calcButton" value="6" onclick="document.getElementById('calcDisplay').value += document.getElementById('6').value; calculator();">6</button>
+                <button id="-" class="calcButton" value="-" onclick="document.getElementById('calcDisplay').value += document.getElementById('-').value; calculator();">-</button><br>
+                <button id="7" class="calcButton" value="7" onclick="document.getElementById('calcDisplay').value += document.getElementById('7').value; calculator();">7</button>
+                <button id="8" class="calcButton" value="8" onclick="document.getElementById('calcDisplay').value += document.getElementById('8').value; calculator();">8</button>
+                <button id="9" class="calcButton" value="9" onclick="document.getElementById('calcDisplay').value += document.getElementById('9').value; calculator();">9</button>
+                <button id="*" class="calcButton" value="*" onclick="document.getElementById('calcDisplay').value += document.getElementById('*').value; calculator();">x</button><br>
+                <button id="00" class="calcButton" value="00" onclick="document.getElementById('calcDisplay').value += document.getElementById('00').value; calculator();">00</button>
+                <button id="0" class="calcButton" value="0" onclick="document.getElementById('calcDisplay').value += document.getElementById('0').value; calculator();">0</button>
+                <button id="." class="calcButton" value="." onclick="document.getElementById('calcDisplay').value += document.getElementById('.').value; calculator();">.</button>
+                <button id="/" class="calcButton" value="/" onclick="document.getElementById('calcDisplay').value += document.getElementById('/').value; calculator();">/</button><br>
+                <button id="clearr" class="calcButton" value="clear" style="width: 138px; height: 40px;" onclick="calculator();">Clear</button>
+                <button id="=" class="calcButton" value="=" style="width: 138px; height: 40px;" onclick="display();">=</button><br>
+            </div>
+        </div>
+        <div id="divFooter" style="opacity: 80%; position: absolute; margin-left: 30%; margin-top: 34%; background-color: rgb(141, 127, 127);  "><footer style="color: rgb(194, 187, 187); background-color: rgb(66, 66, 65);;"><font color="red" size="5px">Note:</font> Logic of this calculator is only optimized for basic arthematic, <br><font style="margin-left: 13%; margin-right: 30%;">project is in development.</style></footer></div>
+        <div class="copyright" style="opacity: 80%; position: absolute; margin-left: 40%; margin-top: 39%; text-align: center; background-color: rgb(141, 127, 127); border-top: 0px !important;">&copy;Copyright: HCKME</div>  
+    </div>
+</body>
+</html>
