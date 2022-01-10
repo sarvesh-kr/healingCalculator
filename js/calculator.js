@@ -77,6 +77,6 @@ let display = () => {
     c=0;
     document.getElementById("calcDisplay").value = result;
     if(isNaN(result)) {
-        document.getElementById("calcDisplay").value = `Sorry ("_-) `;
+        document.getElementById("calcDisplay").value = `You're smart enough to do it yourself ("_-) `;
     }
 }
